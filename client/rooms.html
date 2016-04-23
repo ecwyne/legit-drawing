@@ -1,0 +1,11 @@
+<template name="rooms">
+  <h1 style="color:#00CED1; font-size:600%;">Rooms</h1>
+  <div>
+      <ul>
+          {{#each boards}}
+             <li><a href="/board/{{_id}}">{{name}}</a></li>
+          {{/each}}    
+      </ul>
+      
+  </div>
+</template>

@@ -1,0 +1,15 @@
+/* CSS declarations go here */
+h1{
+    text-align: center;
+    text-shadow: 3px 3px #ff0000;
+    color:#00CED1; 
+    font-size:600%;
+    
+}
+#board{
+    margin: auto;
+    
+}
+template {
+    background-image: url(https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-11.jpg);
+    }
