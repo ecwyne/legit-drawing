@@ -1,8 +1,12 @@
-u1{
+#roomlist{
     text-align: center;
-    color:#00CED1; 
+    color:red; 
     font-size:600%;
     
+}
+
+#roomlist a {
+	color: white;
 }
 #board{
     margin: auto;

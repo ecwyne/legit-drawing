@@ -3,5 +3,5 @@ Meteor.publish('board-by-id', function(id){
 });
 
 Meteor.publish(null, function(){
-    return Boards.find({}, {fields: {name: 1}}); 
+    return Boards.find({}, {fields: {name: 1}, sort: {name: 1}}); 
 });

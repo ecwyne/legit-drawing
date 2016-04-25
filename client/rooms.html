@@ -1,9 +1,9 @@
 <template name="rooms">
-  <h1 style="color:#00CED1; font-size:600%;">Rooms</h1>
-  <div>
+  <h1 style="color:#00CED1; font-size:600%;font-family:impact;">Rooms</h1>
+  <div id="roomlist">
       <ul>
           {{#each boards}}
-             <li><a href="/board/{{_id}}">{{name}}</a></li>
+             <li style="list-style: none; text-shadow: 3px 3px #ff0000; font-family:papyrus;"><a href="/board/{{_id}}">{{name}}</a></li>
           {{/each}}    
       </ul>
       
